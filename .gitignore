@@ -1,0 +1,23 @@
+# ✅ macOS 系統快取檔
+.DS_Store
+
+# ✅ Python 快取與虛擬環境
+__pycache__/
+venv/
+
+# ✅ Node.js 套件
+node_modules/
+
+# ✅ Hugging Face 模型權重或中繼檔案（可自選）
+*.bin
+*.pt
+*.ckpt
+*.h5
+*.log
+
+# ✅ 你自己 fine-tune 的模型資料夾
+backend/model/finetuned-tw-finance-fake-news/
+
+# ✅ Jupyter Notebook 快取資料夾
+.ipynb_checkpoints/
+
